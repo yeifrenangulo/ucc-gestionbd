@@ -322,7 +322,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>320</xloc>
-      <yloc>80</yloc>
+      <yloc>128</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -361,7 +361,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>320</xloc>
-      <yloc>256</yloc>
+      <yloc>304</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -400,7 +400,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>608</xloc>
-      <yloc>80</yloc>
+      <yloc>128</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -422,7 +422,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>96</xloc>
-      <yloc>176</yloc>
+      <yloc>224</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -434,7 +434,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>608</xloc>
-      <yloc>256</yloc>
+      <yloc>304</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
