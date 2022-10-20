@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>CurrencyConvertor</name>
+    <name>WebService-CountryName</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -439,11 +439,11 @@
   <order>
     <hop>
       <from>Generate Rows</from>
-      <to>Web services lookup</to>
+      <to>Web Service Countries</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Web services lookup</from>
+      <from>Web Service Countries</from>
       <to>XML Output</to>
       <enabled>Y</enabled>
     </hop>
@@ -487,13 +487,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>320</xloc>
-      <yloc>144</yloc>
+      <xloc>128</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Web services lookup</name>
+    <name>Web Service Countries</name>
     <type>WebServiceLookup</type>
     <description/>
     <distribute>Y</distribute>
@@ -543,8 +543,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>592</xloc>
-      <yloc>144</yloc>
+      <xloc>400</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -602,8 +602,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>848</xloc>
-      <yloc>144</yloc>
+      <xloc>656</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
